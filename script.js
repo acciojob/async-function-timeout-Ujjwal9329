@@ -41,7 +41,7 @@ document.getElementById("btn").addEventListener("click",async()=>{
 	let p = new Promise((resolve,reject)=>{
 		setTimeout(()=>{
 			resolve();
-		},delay)
+		},delay.value)
 	})
 	let res = await p;
 	output.innerText = text
