@@ -44,7 +44,7 @@ document.getElementById("btn").addEventListener("click",async()=>{
 		},delay.value)
 	})
 	let res = await p;
-	output.innerText = text
+	output.innerText = text.value;
 })
 
 
